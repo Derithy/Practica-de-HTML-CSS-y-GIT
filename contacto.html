@@ -1,10 +1,52 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <title>Contacto</title>
 </head>
+
+
 <body>
-    
+    <form method="post">
+
+        <label for="Correo electrónico">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo">
+
+        <br>
+        <br>
+
+        <label for="Mensaje">Mensaje:</label>
+        <br>
+        <textarea name="Mensaje" id="Mensaje" cols="50" rows="10"></textarea>
+
+        <br>
+        <br>
+
+        <label for="Clasificacion">Tipo de mensaje:</label>
+        <br>
+
+        <input type="radio" id="Personal" name="clasificacion" checked>
+        <label for="Personal">Personal</label>
+        <br>
+
+        <input type="radio" id="Contratacion" name="clasificacion">
+        <label for="Contratacion">Contratación</label>
+        <br>
+
+        <input type="radio" id="Trabajo" name="clasificacion">
+        <label for="Trabajo">Trabajo</label>
+        <br>
+
+        <input type="radio" id="Otro" name="clasificacion">
+        <label for="Otro">Otro</label>
+        <textarea name="textareaOtro" id="textareaOtro" cols="50" rows="1"></textarea>
+
+        <br>
+
+        <input type="submit" value="Enviar">
+
+    </form>
 </body>
+
 </html>
