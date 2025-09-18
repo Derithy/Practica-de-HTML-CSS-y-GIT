@@ -1,0 +1,179 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    background-color: #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #444;
+    border-bottom: 2px solid #666;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+#Info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 40px;
+}
+
+#Info h2 {
+    position: absolute;
+    top: -30px;
+    background-color: #f0f0f0;
+    padding: 0 15px;
+    z-index: 1;
+}
+
+#Bio, #intereses {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px;
+    width: 45%;
+    background-color: white;
+}
+
+.contenedor-bloques {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+#personaje {
+    text-align: center;
+}
+
+#personaje img {
+    border: 3px solid #333;
+    border-radius: 10px;
+    margin: 15px 0;
+    max-width: 300px;
+}
+
+#personaje a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#personaje a:hover {
+    text-decoration: underline;
+}
+
+#personaje p {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+#Formulario {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="email"], input[type="text"], textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.radio-group {
+    margin-top: 10px;
+}
+
+.radio-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+input[type="radio"] {
+    margin-right: 8px;
+    margin-left: 0;
+}
+
+.radio-option label {
+    margin-top: 0;
+    font-weight: normal;
+    margin-right: 15px;
+}
+
+.otro-container {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+#OtroInput {
+    margin-top: 0;
+    margin-left: 10px;
+    width: 300px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+hr {
+    border: 1px solid #999;
+    margin: 20px 0;
+}
